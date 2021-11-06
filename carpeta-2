@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"> -->
+	<link rel="stylesheet" href="estilos.css">
+	<title>hola</title>
+</head>
+<body>
+	
+	<nav class="nav">
+		<ul class="list">
+			<li class="nav__list">
+				<div class="list__button">
+					<img src="images/inicio.svg" class="img__links">
+					<a href="#" class="list__item">Inicio</a>
+				</div>
+			</li>
+
+			<li class="nav__list nav__list--link">
+				<div class="list__button list__button--click">
+					<img src="images/estadisticas.svg" class="img__links">
+					<a href="#" class="list__item">Servicios</a>
+					<img src="images/arrow.svg" class="list__arrow">
+				</div>
+
+				
+				<ul class="list__show">
+						<li class="list__clik"><a class="list__item list__item--inside">estoy dentro</a></li>
+						<li class="list__clik"><a class="list__item list__item--inside">estoy dentro</a></li>
+						<li class="list__clik"><a class="list__item list__item--inside">estoy dentro</a></li>				
+				</ul>
+				
+			</li>
+			
+			<li class="nav__list">
+				<div class="list__button">
+					<img src="images/notificaciones.svg" class="img__links">
+					<a href="#" class="list__item">Inicio</a>
+				</div>
+			</li>
+		</ul>
+		
+	</nav>
+
+
+	<!-- <input type="text" class="input-prueba">
+	<div class="container">
+		
+	</div> -->
+	
+	<script src="menu.js"></script>
+</body>
+
+</html>
